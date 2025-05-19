@@ -1,0 +1,11 @@
+Mini-Proyecto API Inventario 
+El proyecto Inventario API es una aplicación web que permite gestionar un inventario de productos mediante una API RESTful. Django, esta API proporciona operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre productos, permitiendo a los usuarios agregar nuevos productos, listar productos existentes, actualizar información de productos y eliminar productos del inventario. La creación de un cliente en React le permitirá el camino a la interacción con la base de datos. 
+
+En este mini-proyecto de API Invetario empecé por primero lo que fue el BackEnd de la pagina generando una base de batos con el nombre de "mini_proyecto".
+Con la Base de datos creada en MySQL cree dos carpetas una de BackEnd y otra de FrontEnd en el visual studio ya teniendo estas 2 carpetas creadas me concentre por trabajar en lo que fue la carpeta de BackEnd en el visual studio.
+En esta Carpeta de BackEnd llamada MiniProyecto realice los ajustes y cambios necesarios en las carpetas de configuraciones, ya teniendo los cambios necesarios en los archivos de BackEnd realice lo que fue la tabla de productos con sus datos (nombre, descripcion, precio, cantidad) 
+Con la tabla ya creada en el archivo de models me enfoque por realizar los serializers con las validaciones respectivas para luego generar las 2 class en el archivo de views, luego realice la conexion de los path en el archivo de urls y para concluir con la parte del BackEnd voy a realizar los Migrates.
+Con el Back terminado me enfoque por trabajar en la Carpeta de FrontEnd que se llama Front_MiniPoryecto en esta carpeta voy a realizar lo que es la entrada de los datos para recibirlos en el BackEnd.
+Lo primero en esta parte de front seria la creacion de las carpetas (components, pages, routes, services y styles). Ya teniendo las carpetas creadas decidi trabajar por el orden aprendido en clase.
+Este orden seria primero generar los components para luego moverlos a las pages luego realizo la la conexion en routes. Ademas de esto genere en la carpeta de services lo que son los Llamados para el funcionamiento del CRUD de los productos.
+Ya con la parte de front y de back terminadas podemos subirlas para ponerlas aprueba y comprobar que el codigo funciona correctamente.
